@@ -50,7 +50,7 @@ img {
   color: #1a0dab;
   font-weight: bold;
   border-bottom: 0.1rem solid #1a0dab;
-  /* padding: 0 0.5rem 0.5rem 0.5rem; */
+  padding: 0 0.5rem 2rem 0.5rem;
 }
 .right-top {
   display: flex;
@@ -212,6 +212,9 @@ input:focus {
   }
   .left-top {
     display: flex;
+  }
+  .right-top {
+    margin-top: -1.5rem;
   }
   .gmail {
     display: none;
