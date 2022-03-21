@@ -212,7 +212,7 @@ input:focus {
     padding-top: calc(30% - 5rem);
   }
   .bottom {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100vw;
   }
