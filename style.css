@@ -46,6 +46,12 @@ img {
 .left-top p {
   margin-left: 1.5rem;
 }
+.all {
+  color: #1a0dab;
+  font-weight: bold;
+  border-bottom: 0.1rem solid #1a0dab;
+  /* padding: 0 0.5rem 0.5rem 0.5rem; */
+}
 .right-top {
   display: flex;
   justify-content: space-between;
@@ -207,6 +213,9 @@ input:focus {
   .left-top {
     display: flex;
   }
+  .gmail {
+    display: none;
+  }
 
   .middle {
     padding-top: calc(30% - 5rem);
@@ -232,6 +241,9 @@ input:focus {
 }
 /* For small-tablets */
 @media (max-width: 668px) {
+  .google-text img {
+    width: 40vw;
+  }
   .below {
     flex-direction: column;
   }
@@ -244,10 +256,10 @@ input:focus {
 
 /* For phones */
 @media (max-width: 450px) {
-  .top,
+  /* .top,
   .bottom {
-    font-size: 2vw !important;
-  }
+    font-size: 3vw !important;
+  } */
 
   .languages span {
     display: block;
