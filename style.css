@@ -63,6 +63,9 @@ img {
 .right-top p {
   margin-right: 1.5rem;
 }
+.apps {
+  position: relative;
+}
 .apps img {
   width: 4rem;
   padding: 1rem;
@@ -72,6 +75,21 @@ img {
 .apps img:hover {
   border-radius: 50%;
   background-color: #f8f9fa;
+}
+.tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  left: -50%;
+  text-align: center;
+  width: 200%;
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  opacity: 0.7;
+}
+.apps:hover .tooltiptext {
+  visibility: visible;
 }
 .sign {
   background-color: #1a73e8;
