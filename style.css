@@ -259,11 +259,19 @@ input:focus {
 
 /* For phones */
 @media (max-width: 450px) {
-  /* .top,
-  .bottom {
-    font-size: 3vw !important;
-  } */
-
+  .below {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .for-tablets {
+    font-size: 1rem;
+  }
+  .below p {
+    padding: 1rem;
+  }
+  .leaf {
+    width: 1rem;
+  }
   .languages span {
     display: block;
   }
